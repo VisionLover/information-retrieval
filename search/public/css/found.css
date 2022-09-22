@@ -1,0 +1,24 @@
+.container input {
+    width: 0;
+    opacity: 0;
+}
+.container .search {
+    left: 50%;
+    z-index: 6;
+    background: #28a745;
+}
+.container .search::before {
+    top: 13px;
+    left: -9px;
+    width: 8px;
+}
+.container .search::after {
+        top: 1px;
+        left: 9px;
+        width: 23px;
+        height: 2px;
+        border: none;
+        background: white;
+        border-radius: 0%;
+        transform: rotate(-55deg);
+}
